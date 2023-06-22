@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rdf:RDF xmlns:cim="http://iec.ch/TC57/2013/CIM-schema-cim16#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <cim:AnalogValue rdf:ID="_2220358">
+        <cim:AnalogValue.value>9.45</cim:AnalogValue.value>
+        <cim:Analog rdf:resource="#_2220201"/>
+    </cim:AnalogValue>
+    <cim:AnalogValue rdf:ID="_2220359">
+        <cim:AnalogValue.value>10.78</cim:AnalogValue.value>
+        <cim:Analog rdf:resource="#_2220202"/>
+    </cim:AnalogValue>
+    <cim:Analog rdf:ID="_2220201">
+        <cim:Measurement.positiveFlowIn>true</cim:Measurement.positiveFlowIn>
+        <cim:Measurement.normalValue>10</cim:Measurement.normalValue>
+        <cim:Measurement.unitMultiplier>k</cim:Measurement.unitMultiplier>
+        <cim:Measurement.unitSymbol>P</cim:Measurement.unitSymbol>
+        <cim:Measurement.PhaseCode>A</cim:Measurement.PhaseCode>
+        <cim:Measurement.Terminal rdf:resource="#_12D4186B5F604E09A977939CC8F43709"/>
+        <cim:IdentifiedObject.description>Меркурий 230</cim:IdentifiedObject.description>
+    </cim:Analog>
+    <cim:Analog rdf:ID="_2220202">
+        <cim:Measurement.positiveFlowIn>true</cim:Measurement.positiveFlowIn>
+        <cim:Measurement.normalValue>10</cim:Measurement.normalValue>
+        <cim:Measurement.unitMultiplier>k</cim:Measurement.unitMultiplier>
+        <cim:Measurement.unitSymbol>P</cim:Measurement.unitSymbol>
+        <cim:Measurement.Terminal rdf:resource="#_12D4186B5F604E09A977939CC8F43707"/>
+        <cim:IdentifiedObject.description>Меркурий 230</cim:IdentifiedObject.description>
+    </cim:Analog>
+    <cim:EnergyConsumer rdf:ID="_2299412E99264BBF925710C3FC7F30C7">
+        <cim:EnergyConsumer.customerCount>3789</cim:EnergyConsumer.customerCount>
+        <cim:EnergyConsumer.grounded>true</cim:EnergyConsumer.grounded>
+        <cim:EnergyConsumer.pfixed>100 kW</cim:EnergyConsumer.pfixed>
+        <cim:ConductingEquipment.BaseVoltage rdf:resource="#_$BaseVoltage_0_4"/>
+        <cim:ConductingEquipment.Terminal rdf:resource="#_12D4186B5F604E09A977939CC8F43711"/>
+        <cim:IdentifiedObject.mRID>2299412E99264BBF925710C3FC7F30C7</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.name>W1.38</cim:IdentifiedObject.name>
+    </cim:EnergyConsumer>
+    <cim:EnergyConsumer rdf:ID="_2299412E99264BBF925710C3FC7F30C8">
+        <cim:EnergyConsumer.customerCount>3589</cim:EnergyConsumer.customerCount>
+        <cim:EnergyConsumer.grounded>true</cim:EnergyConsumer.grounded>
+        <cim:EnergyConsumer.pfixed>110 kW</cim:EnergyConsumer.pfixed>
+        <cim:ConductingEquipment.BaseVoltage rdf:resource="#_$BaseVoltage_0_4"/>
+        <cim:ConductingEquipment.Terminal rdf:resource="#_12D4186B5F604E09A977939CC8F43713"/>
+        <cim:IdentifiedObject.mRID>2299412E99264BBF925710C3FC7F30C8</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.name>W2.38</cim:IdentifiedObject.name>
+    </cim:EnergyConsumer>
+    <cim:Breaker rdf:ID="_2299412E99264BBF925710C3FC7F30C1">
+        <cim:Switch.NormalOpen>true</cim:Switch.NormalOpen>
+        <cim:ConductingEquipment.BaseVoltage rdf:resource="#_$BaseVoltage_0_4"/>
+        <cim:ProtectedSwitch.Switch.ConductingEquipment.Terminal rdf:resource="#_12D4186B5F604E09A977939CC8F43709"/>
+        <cim:ProtectedSwitch.Switch.ConductingEquipment.Terminal rdf:resource="#_12D4186B5F604E09A977939CC8F43710"/>
+        <cim:IdentifiedObject.mRID>2299412E99264BBF925710C3FC7F30C1</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.name>SF1.38</cim:IdentifiedObject.name>
+    </cim:Breaker>
+    <cim:Breaker rdf:ID="_2299412E99264BBF925710C3FC7F30C2">
+        <cim:Switch.NormalOpen>true</cim:Switch.NormalOpen>
+        <cim:ConductingEquipment.BaseVoltage rdf:resource="#_$BaseVoltage_0_4"/>
+        <cim:ProtectedSwitch.Switch.ConductingEquipment.Terminal rdf:resource="#_12D4186B5F604E09A977939CC8F43707"/>
+        <cim:ProtectedSwitch.Switch.ConductingEquipment.Terminal rdf:resource="#_12D4186B5F604E09A977939CC8F437012"/>
+        <cim:IdentifiedObject.mRID>2299412E99264BBF925710C3FC7F30C2</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.name>SF2.38</cim:IdentifiedObject.name>
+    </cim:Breaker>
+    <cim:Disconnector rdf:ID="_36E6EA586E774E35AA3204FB835BE10D">
+        <cim:Switch.NormalOpen>false</cim:Switch.NormalOpen>
+        <cim:Switch.open>false</cim:Switch.open>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:ConductingEquipment.BaseVoltage rdf:resource="#_$BaseVoltage_10"/>
+        <cim:Switch.ConductingEquipment.Terminal rdf:resource="#_12D4186B5F604E09A977939CC8F43701"/>
+        <cim:Switch.ConductingEquipment.Terminal rdf:resource="#_12D4186B5F604E09A977939CC8F43702"/>
+        <cim:IdentifiedObject.mRID>36E6EA586E774E35AA3204FB835BE10D</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.name>QS1.38</cim:IdentifiedObject.name>
+    </cim:Disconnector>
+    <cim:Disconnector rdf:ID="_36E6EA586E774E35AA3204FB835BE11D">
+        <cim:Switch.NormalOpen>false</cim:Switch.NormalOpen>
+        <cim:Switch.open>false</cim:Switch.open>
+        <cim:Switch.retained>false</cim:Switch.retained>
+        <cim:ConductingEquipment.BaseVoltage rdf:resource="#_$BaseVoltage_0_4"/>
+        <cim:Switch.ConductingEquipment.Terminal rdf:resource="#_12D4186B5F604E09A977939CC8F43705"/>
+        <cim:Switch.ConductingEquipment.Terminal rdf:resource="#_12D4186B5F604E09A977939CC8F43706"/>
+        <cim:IdentifiedObject.mRID>36E6EA586E774E35AA3204FB835BE11D</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.name>SA1.38</cim:IdentifiedObject.name>
+    </cim:Disconnector>
+    <cim:BusbarSection rdf:ID="_0002F5CDCE5C432FBB64B3A2BFF45523">
+        <cim:BusbarSection.ipMax>0</cim:BusbarSection.ipMax>
+        <cim:ConductingEquipment.BaseVoltage rdf:resource="#_$BaseVoltage_0_4"/>
+        <cim:Connector.ConductingEquipment.Terminal rdf:resource="#_12D4186B5F604E09A977939CC8F43708"/>
+        <cim:IdentifiedObject.mRID>0002F5CDCE5C432FBB64B3A2BFF45523</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.name>BUS</cim:IdentifiedObject.name>
+    </cim:BusbarSection>
+    <cim:PowerTransformer rdf:ID="_0000107D758E4E32BEE4E343037792B5">
+        <cim:ConductingEquipment.Terminal rdf:resource="#_12D4186B5F604E09A977939CC8F43703"/>
+        <cim:ConductingEquipment.Terminal rdf:resource="#_12D4186B5F604E09A977939CC8F43704"/>
+        <cim:IdentifiedObject.mRID>0000107D758E4E32BEE4E343037792B5</cim:IdentifiedObject.mRID>
+        <cim:IdentifiedObject.name>T1.38</cim:IdentifiedObject.name>
+    </cim:PowerTransformer>
+    <cim:VoltageLevel rdf:ID="_C827AC02C8C24D478A8823CE8D9A8AD0">
+        <!--TODO Как записать кастомный тип данных? (Voltage)-->
+        <!--TODO Определить ограничения на тип данных в XSD (Voltage)-->
+        <cim:VoltageLevel.highVoltageLimit>11 kV</cim:VoltageLevel.highVoltageLimit>
+        <cim:VoltageLevel.lowVoltageLimit>9 kV</cim:VoltageLevel.lowVoltageLimit>
+        <cim:VoltageLevel.BaseVoltage rdf:resource="#_$BaseVoltage_10"/>
+        <cim:VoltageLevel.Substation rdf:resource="#_B08A85CA5E7047B6AAF71A3BF5E303CF"/>
+    </cim:VoltageLevel>
+    <cim:VoltageLevel rdf:ID="_C827AC02C8C24D478A8823CE8D9A8AD1">
+        <!--TODO Как записать кастомный тип данных? (Voltage)-->
+        <!--TODO Определить ограничения на тип данных в XSD (Voltage)-->
+        <cim:VoltageLevel.highVoltageLimit>0.42</cim:VoltageLevel.highVoltageLimit>
+        <cim:VoltageLevel.lowVoltageLimit>0.36</cim:VoltageLevel.lowVoltageLimit>
+        <cim:VoltageLevel.BaseVoltage rdf:resource="#_$_$BaseVoltage_0_4"/>
+        <cim:VoltageLevel.Substation rdf:resource="#_B08A85CA5E7047B6AAF71A3BF5E303CF"/>
+    </cim:VoltageLevel>
+    <cim:Substation rdf:ID="_B08A85CA5E7047B6AAF71A3BF5E303CF">
+        <cim:Substation.SubGeographicalRegion rdf:resource="#_87705A70110D4470A60371EE412C0DB4"/>
+        <cim:IdentifiedObject.name>КТП38</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.mRID>B08A85CA5E7047B6AAF71A3BF5E303CF</cim:IdentifiedObject.mRID>
+    </cim:Substation>
+    <cim:SubGeographicalRegion rdf:ID="_87705A70110D4470A60371EE412C0DB4">
+        <cim:SubGeographicalRegion.GeographicalRegion rdf:resource="#_B5E553B6C3074A50A5B9918B5248B3CF"/>
+        <cim:IdentifiedObject.name>Moscow</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.mRID>87705A70110D4470A60371EE412C0DB4</cim:IdentifiedObject.mRID>
+    </cim:SubGeographicalRegion>
+    <cim:GeographicalRegion rdf:ID="_B5E553B6C3074A50A5B9918B5248B3CF">
+        <cim:IdentifiedObject.name>Moscow region</cim:IdentifiedObject.name>
+        <cim:IdentifiedObject.mRID>B5E553B6C3074A50A5B9918B5248B3CF</cim:IdentifiedObject.mRID>
+    </cim:GeographicalRegion>
+    <cim:Terminal rdf:ID="_12D4186B5F604E09A977939CC8F43701">
+        <cim:Terminal.phases>ABC</cim:Terminal.phases>
+        <cim:Terminal.ConnectivityNode rdf:resource="#_DC8C1A4CD9B34F68985345F7D7A34C1C"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:ID="_12D4186B5F604E09A977939CC8F43702">
+        <cim:Terminal.phases>ABC</cim:Terminal.phases>
+        <cim:Terminal.ConnectivityNode rdf:resource="#_DC8C1A4CD9B34F68985345F7D7A34C2C"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:ID="_12D4186B5F604E09A977939CC8F43703">
+        <cim:Terminal.phases>ABC</cim:Terminal.phases>
+        <cim:Terminal.ConnectivityNode rdf:resource="#_DC8C1A4CD9B34F68985345F7D7A34C2C"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:ID="_12D4186B5F604E09A977939CC8F43704">
+        <cim:Terminal.phases>ABC</cim:Terminal.phases>
+        <cim:Terminal.ConnectivityNode rdf:resource="#_DC8C1A4CD9B34F68985345F7D7A34C3C"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:ID="_12D4186B5F604E09A977939CC8F43705">
+        <cim:Terminal.phases>ABC</cim:Terminal.phases>
+        <cim:Terminal.ConnectivityNode rdf:resource="#_DC8C1A4CD9B34F68985345F7D7A34C3C"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:ID="_12D4186B5F604E09A977939CC8F43706">
+        <cim:Terminal.phases>ABC</cim:Terminal.phases>
+        <cim:Terminal.ConnectivityNode rdf:resource="#_DC8C1A4CD9B34F68985345F7D7A34C4C"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:ID="_12D4186B5F604E09A977939CC8F43707">
+        <cim:Terminal.phases>ABC</cim:Terminal.phases>
+        <cim:Terminal.ConnectivityNode rdf:resource="#_DC8C1A4CD9B34F68985345F7D7A34C4C"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:ID="_12D4186B5F604E09A977939CC8F43708">
+        <cim:Terminal.phases>ABC</cim:Terminal.phases>
+        <cim:Terminal.ConnectivityNode rdf:resource="#_DC8C1A4CD9B34F68985345F7D7A34C4C"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:ID="_12D4186B5F604E09A977939CC8F43709">
+        <cim:Terminal.phases>ABC</cim:Terminal.phases>
+        <cim:Terminal.ConnectivityNode rdf:resource="#_DC8C1A4CD9B34F68985345F7D7A34C4C"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:ID="_12D4186B5F604E09A977939CC8F43710">
+        <cim:Terminal.phases>ABC</cim:Terminal.phases>
+        <cim:Terminal.ConnectivityNode rdf:resource="#_DC8C1A4CD9B34F68985345F7D7A34C5C"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:ID="_12D4186B5F604E09A977939CC8F43711">
+        <cim:Terminal.phases>ABC</cim:Terminal.phases>
+        <cim:Terminal.ConnectivityNode rdf:resource="#_DC8C1A4CD9B34F68985345F7D7A34C5C"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:ID="_12D4186B5F604E09A977939CC8F43712">
+        <cim:Terminal.phases>ABC</cim:Terminal.phases>
+        <cim:Terminal.ConnectivityNode rdf:resource="#_DC8C1A4CD9B34F68985345F7D7A34C6C"/>
+    </cim:Terminal>
+    <cim:Terminal rdf:ID="_12D4186B5F604E09A977939CC8F43713">
+        <cim:Terminal.phases>ABC</cim:Terminal.phases>
+        <cim:Terminal.ConnectivityNode rdf:resource="#_DC8C1A4CD9B34F68985345F7D7A34C6C"/>
+    </cim:Terminal>
+    <cim:ConnectivityNode rdf:ID="_DC8C1A4CD9B34F68985345F7D7A34C1C">
+        <cim:IdentifiedObject.mRID>DC8C1A4CD9B34F68985345F7D7A34C1C</cim:IdentifiedObject.mRID>
+    </cim:ConnectivityNode>
+    <cim:ConnectivityNode rdf:ID="_DC8C1A4CD9B34F68985345F7D7A34C2C">
+        <cim:IdentifiedObject.mRID>DC8C1A4CD9B34F68985345F7D7A34C2C</cim:IdentifiedObject.mRID>
+    </cim:ConnectivityNode>
+    <cim:ConnectivityNode rdf:ID="_DC8C1A4CD9B34F68985345F7D7A34C3C">
+        <cim:IdentifiedObject.mRID>DC8C1A4CD9B34F68985345F7D7A34C3C</cim:IdentifiedObject.mRID>
+    </cim:ConnectivityNode>
+    <cim:ConnectivityNode rdf:ID="_DC8C1A4CD9B34F68985345F7D7A34C4C">
+        <cim:IdentifiedObject.mRID>DC8C1A4CD9B34F68985345F7D7A34C4C</cim:IdentifiedObject.mRID>
+    </cim:ConnectivityNode>
+    <cim:ConnectivityNode rdf:ID="_DC8C1A4CD9B34F68985345F7D7A34C5C">
+        <cim:IdentifiedObject.mRID>DC8C1A4CD9B34F68985345F7D7A34C5C</cim:IdentifiedObject.mRID>
+    </cim:ConnectivityNode>
+    <cim:ConnectivityNode rdf:ID="_DC8C1A4CD9B34F68985345F7D7A34C6C">
+        <cim:IdentifiedObject.mRID>DC8C1A4CD9B34F68985345F7D7A34C6C</cim:IdentifiedObject.mRID>
+    </cim:ConnectivityNode>
+    <cim:BaseVoltage rdf:ID="_$BaseVoltage_10">
+        <cim:IdentifiedObject.mRID>$BaseVoltage_10</cim:IdentifiedObject.mRID>
+        <!--TODO Если не указан символ, то по умолчанию kV-->
+        <cim:BaseVoltage.nominalVoltage>10</cim:BaseVoltage.nominalVoltage>
+    </cim:BaseVoltage>
+    <cim:BaseVoltage rdf:ID="_$BaseVoltage_0_4">
+        <cim:IdentifiedObject.mRID>$BaseVoltage_0_4</cim:IdentifiedObject.mRID>
+        <!--TODO Если не указан символ, то по умолчанию kV-->
+        <cim:BaseVoltage.nominalVoltage>0.4</cim:BaseVoltage.nominalVoltage>
+    </cim:BaseVoltage>
+</rdf:RDF>
